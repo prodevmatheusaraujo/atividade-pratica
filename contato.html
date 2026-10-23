@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato: envie sua mensagem pelo formulário.">
+  <title>Meu Portfólio | Contatos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-content">
+      <h1 class="logo">Meu Portfólio</h1>
+      <nav aria-label="Menu principal">
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contato.html" aria-current="page">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="form-card">
+      <h2>Entre em contato</h2>
+      <p>Preencha o formulário abaixo para enviar sua mensagem.</p>
+
+      <form action="#" method="post">
+        <div class="field">
+          <label for="nome">Nome completo:</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+
+        <div class="field">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        </div>
+
+        <div class="field">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-dark">Enviar mensagem</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 - Meu Portfólio. Todos os direitos reservados.</p>
+    <p>Desenvolvido com HTML5 e CSS3.</p>
+    <p><a href="contato.html">Entre em contato</a></p>
+  </footer>
+
+</body>
+</html>
